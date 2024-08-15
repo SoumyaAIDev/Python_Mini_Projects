@@ -27,7 +27,7 @@ textString = " ".join(textList)
 print(textString)
 
 #Set language to english (en)
-language = 'en'
+language = "en"
 
 #Call GTTS
 myAudio = gTTS(text=textString, lang=language, slow=False)
